@@ -1,16 +1,56 @@
-# quote_app_daily_task
+<h1 align="center">
+ #️⃣ Factory constructor & Modal class #️⃣
+</h1>
+<p>
+  <p>Write a detailed implementation of the Factory constructor & and Modal class with an explanation step by step (point-wise).</p>
 
-A new Flutter project.
+1> Factory constructor :-
 
-## Getting Started
+=>     In object-oriented programming, particularly in  Dart languages   a factory constructor is a special type of constructor used to create and return instances of a class.
 
-This project is a starting point for a Flutter application.
+ Unlike regular constructors, which always return a new instance of the class they belong to, factory constructors can return instances of a different class or even reuse existing instances. This gives developers more control over the creation process.
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+improt'dart:io';
+class Shape {
+  final int sides;
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+  Shape(this.sides);
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  factory Shape.create(int sides) {
+    if (sides == 3)
+    {
+      return Triangle();
+    }
+    else if (sides == 4)
+    {
+      return Square();
+    }
+     else
+    {
+      return Shape(sides);
+    }
+  }
+}
+
+class Triangle extends Shape {
+  Triangle() : super(3) {
+    print("Creating a Triangle.");
+  }
+}
+
+class Square extends Shape {
+  Square() : super(4) {
+    print("Creating a Square.");
+  }
+}
+
+void main() {
+  var shape1 = Shape.create(3); 
+  var shape2 = Shape.create(4); 
+  var shape3 = Shape.create(5); 
+}
+
+  ```
+
+</p>

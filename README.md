@@ -73,7 +73,7 @@ void main() {
 4>Access Modifiers: 
 =>These determine the visibility or accessibility of attributes and methods from outside the class. Common access modifiers include public, private, and protected.
 
- bash```
+  ```bash
     body: SingleChildScrollView(
         child: Column(
           children: [

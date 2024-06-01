@@ -132,7 +132,14 @@ Future <Uint8List> genratePdf(){
   `````     
   <h1>#️⃣Dialog Box#️⃣</h1>
   <P>
-   <img src="" width=21%,heigth=35%>
+   <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/Basic.png" width=21%,heigth=35%>
+    <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/full.png" width=21%,heigth=35%>
+    <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/fuu.png" width=21%,heigth=35%>
+    <video src="https://github.com/harshdusane2103/quote_app_daily_task/assets/161817658/0414f69a-29a1-4804-bb95-631f2f4bf77e">
+
+
+
+
   </P>
 
 

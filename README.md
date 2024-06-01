@@ -130,8 +130,12 @@ Future <Uint8List> genratePdf(){
 
 
   `````     
-  
+  <h1>#️⃣Dialog Box#️⃣</h1>
+  <P>
+   <img src="" width=21%,heigth=35%>
+  </P>
 
 
 
 </p>
+l

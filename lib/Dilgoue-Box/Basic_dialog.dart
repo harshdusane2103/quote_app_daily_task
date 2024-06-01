@@ -25,23 +25,12 @@ class _DialogScreenState extends State<DialogScreen> {
              return Dialog.fullscreen(
                child: Center(
                  child: Column(
+                   mainAxisAlignment: MainAxisAlignment.center,
                    children: [
-                     CupertinoAlertDialog(
-                       title: Text('Do you want to Delete ?'),
-                       actions: [
-                         TextButton(onPressed: () {
 
-                         }, child: InkWell(
-                             onTap:() {
-                               setState(() {
-                                 Navigator.pop(context);
-                               });
-                             },child: Text('No'))),
-                         TextButton(onPressed: () {
+                        Text('Hi, how are you ?'),
 
-                         }, child: Text('yes'))
-                       ],
-                     )
+
                    ],
                  ),
                ),

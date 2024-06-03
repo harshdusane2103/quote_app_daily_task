@@ -148,9 +148,9 @@ Future <Uint8List> genratePdf(){
   </P>
     <h1 align="center">#️⃣Random Quotes Generator#️⃣</h1>
   <P>
-   <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/q1.png" width=21%,heigth=35%>
-    <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/q2.png" width=21%,heigth=35%>
-    <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/q3.png" width=21%,heigth=35%>
+   <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/q1.jpg" width=21%,heigth=35%>
+    <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/q2.jpg" width=21%,heigth=35%>
+    <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/q3.jpg" width=21%,heigth=35%>
     <video src="https://github.com/harshdusane2103/quote_app_daily_task/assets/161817658/a57facf1-a345-4d33-b9cc-83bf39231a17">
 
 

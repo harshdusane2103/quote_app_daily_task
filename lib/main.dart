@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quote_app_daily_task/Dilgoue-Box/Basic_dialog.dart';
+
+import 'package:quote_app_daily_task/Quote_Dialog/HomeScreen.dart';
+import 'package:quote_app_daily_task/Quote_Dialog/bg.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,8 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/':(context)=>DialogScreen(),
+        '/':(context)=>Quotes(),
+        '/bg':(context)=>bgScreen(),
       },
     );
   }

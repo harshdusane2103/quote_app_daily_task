@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:quote_app_daily_task/Quote_Dialog/quote_class.dart';
+import 'package:quote_app_daily_task/utils/quote_class.dart';
 import 'package:quote_app_daily_task/utils/golbal.dart';
 
 QuotesModel? quotesModel;
@@ -22,7 +22,7 @@ class _QuotesState extends State<Quotes> {
 
   @override
   Widget build(BuildContext context) {
-    double width = MediaQuery.of(context).size.width;
+
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
@@ -30,8 +30,8 @@ class _QuotesState extends State<Quotes> {
           backgroundColor: Colors.deepPurple,
           title: Text(
             'Quote ',
-            style: TextStyle(color: Colors.white, fontSize: width * 0.062),
-          ),
+            style: TextStyle(color: Colors.white, ),
+          )
         ),
         body: Padding(
           padding: const EdgeInsets.fromLTRB(8, 12, 8, 8),

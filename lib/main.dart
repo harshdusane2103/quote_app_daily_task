@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-import 'package:quote_app_daily_task/Quote_Dialog/HomeScreen.dart';
-import 'package:quote_app_daily_task/Quote_Dialog/bg.dart';
+
+import 'package:quote_app_daily_task/utils/bg.dart';
+import 'package:quote_app_daily_task/Toggle%20View/grid.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,8 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       routes: {
-        '/':(context)=>Quotes(),
+
+        '/':(context)=>gridviewScreen(),
         '/bg':(context)=>bgScreen(),
       },
     );

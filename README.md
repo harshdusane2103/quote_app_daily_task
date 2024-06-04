@@ -158,8 +158,8 @@ Future <Uint8List> genratePdf(){
      
     <h1 align="center">#️⃣Listview to Gridview Toggle View#️⃣</h1>
   <P>
-   <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/grid.jpg" width=21%,heigth=35%>
-    <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/gridtoo.jpg" width=21%,heigth=35%>
+   <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/grid.png" width=21%,heigth=35%>
+    <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/gridtoo.png" width=21%,heigth=35%>
   
     <video src="https://github.com/harshdusane2103/quote_app_daily_task/assets/161817658/233e0790-434e-479e-9cea-a05af4bc1478">
 </P>

@@ -130,22 +130,16 @@ Future <Uint8List> genratePdf(){
 
 
   `````     
-
-
-
-
 </p>
+
+
   <h1 align="center">#️⃣Dialog Box#️⃣</h1>
   <P>
    <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/Basic.png" width=21%,heigth=35%>
     <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/full.png" width=21%,heigth=35%>
     <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/fuu.png" width=21%,heigth=35%>
     <video src="https://github.com/harshdusane2103/quote_app_daily_task/assets/161817658/0414f69a-29a1-4804-bb95-631f2f4bf77e">
-
-
-
-
-  </P>
+ </P>
   
     <h1 align="center">#️⃣Random Quotes Generator#️⃣</h1>
   <P>
@@ -158,10 +152,9 @@ Future <Uint8List> genratePdf(){
      
     <h1 align="center">#️⃣Listview to Gridview Toggle View#️⃣</h1>
   <P>
-   <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/grid.png" width=21%,heigth=35%>
-    <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/gridtoo.png" width=21%,heigth=35%>
-  
-    <video src="https://github.com/harshdusane2103/quote_app_daily_task/assets/161817658/233e0790-434e-479e-9cea-a05af4bc1478">
+     <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/grid.png" width=21%,heigth=35%>
+     <img src="https://github.com/harshdusane2103/quote_app_daily_task/blob/master/gridtoo.png" width=21%,heigth=35%>
+     <video src="https://github.com/harshdusane2103/quote_app_daily_task/assets/161817658/0ff35194-f2e5-478a-815c-7bc4ba038e3a"></video>
 </P>
 
 
